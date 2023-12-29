@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="main-div">
+        <div>
+            <h1>Sign Up</h1>
+            <p>It's Quick and easy</p>
+            <hr class="solid">
+            <form id="form" action="#">
+                <input id="firstname" type="text" placeholder="First name">
+                <input id="surname" type="text" placeholder="Surname"><br><br>
+                <input id="number" type="tel" placeholder="Mobile or Email address"><br>
+                <input id="password" type="password" placeholder="Password"><br>
+                <label class="date" for="date">Date:</label>
+                <input id="date1" type="date" name="date"><br>
+                <legend id="gender">Your gender:</legend>
+                
+                <div class="gender1">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male" checked>
+                </div>
+                <div class="gender2">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+                <div class="gender3">
+                    <label for="custom">Custom</label>
+                <input type="radio" name="gender" id="custom" value="custom">
+                </div>
+                
+                <p class="terms">People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                <input id="signup" type="submit" value="Sign Up">
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
